@@ -66,15 +66,19 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+
+
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background-color: white;
   color: var(--clr-grey-1);
-  line-height: 1.5;
+  line-height: 2.5;
   font-size: 0.875rem;
 }
+
 ul {
   list-style-type: none;
+
 }
 a {
   text-decoration: none;
@@ -88,6 +92,7 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: var(--ff-primary);
+  padding: 1em;
 }
 h1 {
   font-size: 3rem;
